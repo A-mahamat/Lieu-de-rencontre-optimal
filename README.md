@@ -12,9 +12,9 @@ Ce projet utilisant Python vise à trouver la commune optimale, en minimisant le
 
 ## Auteurs
 
-- 22410567 Mahamat ABDRAMAN  
-- 22409612 Adami ABDOURAHAMANE CHEGOU  
-- 22409616 Uriel ADOTANOU
+- Mahamat ABDRAMAN  
+- Adami ABDOURAHAMANE CHEGOU  
+- Uriel ADOTANOU
 
 ---
 
@@ -31,7 +31,7 @@ Ce projet utilisant Python vise à trouver la commune optimale, en minimisant le
 
 | Ressource                   | Description                            | Lien                                       |
 |-----------------------------|----------------------------------------|---------------------------------------------|
-| **API Logements**           | Données administratives des communes | [Lien](https://geo.api.gouv.fr/communes)   |
+| **API communes**           | Données administratives des communes | [Lien](https://geo.api.gouv.fr/communes)   |
 | **API Adresses Amis**       | Adresses des amis fictives            | [Lien](https://my-json-server.typicode.com/rtavenar/fake_api/adresses_amis) |
 | **GraphHopper API**         | Calcul des trajets en vélo            | [Lien](https://graphhopper.com/)           |
 
@@ -43,7 +43,6 @@ Ce projet utilisant Python vise à trouver la commune optimale, en minimisant le
 |---------------|-------------------------------|
 | `requests`    | Requêtes HTTP pour les APIs   |
 | `json`        | Manipulation de fichiers JSON |
-| `numpy`       | Calculs numériques            |
 | `pandas`      | Traitement des données        |
 | `GraphHopper` | Calcul des trajets            |
 
@@ -54,7 +53,6 @@ Ce projet utilisant Python vise à trouver la commune optimale, en minimisant le
 Pour exécuter le projet, suivez ces étapes :
 
 1. **Installation des dépendances**
-   - Assurez-vous d'avoir Python installé.
    - Installez les dépendances à partir du fichier `requirements.txt` :
 
      ```bash
